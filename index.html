@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 
-<head><script type="text/javascript" src="http://127.0.0.1:3000/___vscode_livepreview_injected_script"></script>
+<head>
+  <script type="text/javascript" src="http://127.0.0.1:3000/___vscode_livepreview_injected_script"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MDView — Zero-dependency Markdown renderer</title>
@@ -213,7 +214,7 @@
       }
     }
 
-    .hero > *:not(.hero-bg-glow):not(.orb) {
+    .hero>*:not(.hero-bg-glow):not(.orb) {
       position: relative;
       z-index: 1;
     }
@@ -758,16 +759,16 @@
   <header>
     <div class="nav">
       <button class="ib" id="menu" aria-label="Menu"><i data-lucide="menu"></i></button>
-      <a class="logo" href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#top"><i data-lucide="file-text"></i>MDView</a>
+      <a class="logo" href="#top"><i data-lucide="file-text"></i>MDView</a>
       <nav>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#features">Features</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#how">How it works</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#install">Docs</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#api">API</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#security">Security</a>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#install">Docs</a>
+        <a href="#api">API</a>
+        <a href="#security">Security</a>
       </nav>
       <button class="ib" id="theme" aria-label="Toggle theme"><i data-lucide="sun-moon"></i></button>
-      <a class="btn p" href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#install" style="padding:8px 16px">Get started</a>
+      <a class="btn p" href="#install" style="padding:8px 16px">Make</a>
     </div>
   </header>
 
@@ -783,7 +784,7 @@
 
     <!-- Announcement Pill -->
     <div class="pill-wrapper h">
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#install" class="pill">
+      <a href="#" class="pill">
         <span class="pill-tag">NEW</span>
         <span>v1.0.0 released — Just two files</span>
         <i data-lucide="chevron-right" width="14"></i>
@@ -801,12 +802,12 @@
 
     <!-- CTA Action Buttons -->
     <div class="cta h">
-      <a class="btn p" href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#install">
+      <a class="btn p" href="Download">
         <i data-lucide="download" width="18"></i>
-        <span>Get started</span>
+        <span>Download</span>
         <i data-lucide="arrow-right" width="16" class="btn-icon"></i>
       </a>
-      <a class="btn" href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#api">
+      <a class="btn" href="#api">
         <i data-lucide="book-open" width="18"></i>
         <span>Read the API</span>
       </a>
@@ -825,7 +826,6 @@
       </div>
       <pre class="window-body"><code><span class="hl-tag">&lt;link</span> <span class="hl-attr">rel</span>=<span class="hl-str">"stylesheet"</span> <span class="hl-attr">href</span>=<span class="hl-str">"mdview.css"</span><span class="hl-tag">&gt;</span>
 <span class="hl-tag">&lt;main</span> <span class="hl-attr">id</span>=<span class="hl-str">"markdown"</span><span class="hl-tag">&gt;&lt;/main&gt;</span>
-
 <span class="hl-tag">&lt;script</span> <span class="hl-attr">src</span>=<span class="hl-str">"mdview.js"</span><span class="hl-tag">&gt;&lt;/script&gt;</span>
 <span class="hl-tag">&lt;script&gt;</span>
   <span class="hl-func">MDView</span>.renderFile(<span class="hl-str">"README.md"</span>, <span class="hl-str">"#markdown"</span>);
@@ -911,7 +911,7 @@
       <i data-lucide="arrow-right"></i>
       <div class="card r">mdview.css</div>
       <i data-lucide="arrow-right"></i>
-      <div class="card r grad" style="font-weight:800">Styled docs page</div>
+      <div class="card r" style="font-weight:800">Styled docs page</div>
     </div>
   </section>
 
@@ -923,15 +923,15 @@
   <div class="docs">
     <aside id="side">
       <h4>Documentation</h4>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#install"><i data-lucide="package" width="16"></i>Installation</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#first"><i data-lucide="rocket" width="16"></i>First page</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#api"><i data-lucide="plug" width="16"></i>API</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#options"><i data-lucide="settings" width="16"></i>Options</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#markdown"><i data-lucide="pen-line" width="16"></i>Supported Markdown</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#styling"><i data-lucide="paintbrush" width="16"></i>Styling &amp; dark theme</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#site"><i data-lucide="layout-dashboard" width="16"></i>Docs website</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#security"><i data-lucide="lock" width="16"></i>Security</a>
-      <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#trouble"><i data-lucide="life-buoy" width="16"></i>Troubleshooting</a>
+      <a href="#install"><i data-lucide="package" width="16"></i>Installation</a>
+      <a href="#first"><i data-lucide="rocket" width="16"></i>First page</a>
+      <a href="#api"><i data-lucide="plug" width="16"></i>API</a>
+      <a href="#options"><i data-lucide="settings" width="16"></i>Options</a>
+      <a href="#markdown"><i data-lucide="pen-line" width="16"></i>Supported Markdown</a>
+      <a href="#styling"><i data-lucide="paintbrush" width="16"></i>Styling &amp; dark theme</a>
+      <a href="#site"><i data-lucide="layout-dashboard" width="16"></i>Docs website</a>
+      <a href="#security"><i data-lucide="lock" width="16"></i>Security</a>
+      <a href="#trouble"><i data-lucide="life-buoy" width="16"></i>Troubleshooting</a>
     </aside>
 
     <div class="doc">
@@ -958,7 +958,8 @@
         <div class="note w">
           <i data-lucide="triangle-alert" width="18"></i>
           <div>Opening via <code>file:///</code> can block <code>fetch()</code>. Use a local server:
-            <code>python3 -m http.server 8080</code> or VS Code Live Server.</div>
+            <code>python3 -m http.server 8080</code> or VS Code Live Server.
+          </div>
         </div>
       </section>
 
@@ -1131,34 +1132,34 @@ loadDoc("docs/introduction.md");</code></pre>
   <footer>
     <div class="fg">
       <div>
-        <a class="logo" href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#top"><i data-lucide="file-text"></i>MDView</a>
-        <p>Made for simple, beautiful documentation. ⭐</p>
+        <a style="display: flex; align-items: center; gap: 05px;" class="logo" href="#top"><i data-lucide="file-text"></i><p>MDView</p></a>
+        <p>⭐ Made for simple, beautiful documentation.</p>
       </div>
       <div>
         <h5>Product</h5>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#features">Features</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#how">How it works</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#install">Installation</a>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#install">Installation</a>
       </div>
       <div>
         <h5>Docs</h5>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#api">API</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#options">Options</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#security">Security</a>
+        <a href="#api">API</a>
+        <a href="#options">Options</a>
+        <a href="#security">Security</a>
       </div>
       <div>
         <h5>Deploy</h5>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#site">Docs site</a>
-        <a href="http://127.0.0.1:3000/home/itsrealahnaf/Desktop/MDView%20%E2%80%94%20Landing%20Page%20&%20Docs.html?vscode-livepreview=true#trouble">Troubleshooting</a>
+        <a href="#site">Docs site</a>
+        <a href="#trouble">Troubleshooting</a>
       </div>
     </div>
-    <div class="copyr">© 2026 MDView · v1.0.0 · Zero dependencies</div>
+    <div class="copyr">© 2026 MDView · v1.0.0 · Made with ♥ by Ahnaf Al Sadid</div>
   </footer>
 
   <script>
     lucide.createIcons();
 
-    document.querySelectorAll("pre, .window-frame").forEach(p => {
+    document.querySelectorAll("pre").forEach(p => {
       const b = document.createElement("button");
       b.className = "copy";
       b.innerHTML = '<i data-lucide="copy" width="15"></i>';
